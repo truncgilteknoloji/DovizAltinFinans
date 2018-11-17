@@ -14,11 +14,13 @@ https://finans.truncgil.com/today.json
 
 Örnek Kullanım
 
+<?php
 $finans = json_decode(file_get_contents("https://finans.truncgil.com/today.json"),true);
 
 print_r($finans);
-
+?>
 Çıktı
+
 
 Array ( [Güncelleme Tarihi] => 2018-11-17 07:30:03 [Çeyrek Altın] => Array ( [Alış] => 336,1900 [Satış] => 343,8500 )
 
